@@ -114,7 +114,6 @@ char* craft(char* inventory, char* item1, char* item2, char* recipes){
 int main() {
     //Initializes important variables
     char inventory[51] = {0};
-    char final[20];
     strcat(inventory, "rock, wood");
 
     //Every possible recipe
